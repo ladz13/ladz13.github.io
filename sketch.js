@@ -40,7 +40,7 @@ function draw() {
     t.move();
     t.show();
     if(unicorn.hits(t)){
-      text('game over',width/2,height/2);
+      text("Game over, you're trash",width/2,height/2);
       noLoop();
     }
   }
