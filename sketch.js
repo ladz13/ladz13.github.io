@@ -14,7 +14,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(1200, windowHeight);
   unicorn = new Unicorn();
   textSize(fontsize);
   textAlign(CENTER, CENTER);
